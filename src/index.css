@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #FF4E00;
+  --color-accent-hover: #ff601c;
+  --color-steel-dark: #0F0F0F;
+  --color-steel-metal: #1A1A1A;
+}
+
+/* Artistic Flair custom stroke styling */
+.border-text {
+  -webkit-text-stroke: 1px #E0E0E0;
+}
+
+.border-text-accent {
+  -webkit-text-stroke: 1px #FF4E00;
+}
+
+/* Webkit scrollbar stylings for elegant metal feels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0F0F0F;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF4E00;
+}

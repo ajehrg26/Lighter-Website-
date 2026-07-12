@@ -1,0 +1,6 @@
+{
+  "name": "Lighter Boutique & Customizer",
+  "description": "An elegant, interactive Art Deco single-page boutique for premium lighters, featuring a virtual flick-to-ignite experience, custom engraving previews, and a seamless client-side shopping cart.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
